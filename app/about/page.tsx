@@ -82,13 +82,13 @@ export default function AboutPage() {
         <div className={cn(textBoxClassName, "md:col-span-2")}>
           <h1 className="text-2xl tracking-widest mb-4"></h1>
           <p>
-            I've been designing and developing software for over 2 years,
+            {/* I've been designing and developing software for over 2 years,
             working alongside visionaries ranging from startup founders to
             experienced engineers. I specialize in front-end development and
             overall user experience, bringing visions to life from initial
-            concepts to fully functional applications.
+            concepts to fully functional applications. */}
           </p>
-          About Me Brief Bio and Experience My journey into the world of
+          {/* About Me Brief Bio and Experience My journey into the world of
           software development began with a fascination for technology and an
           insatiable curiosity for how things work. This passion for
           problem-solving and creating intuitive solutions propelled me into a
@@ -105,7 +105,7 @@ export default function AboutPage() {
           hobbies not only keep me balanced but also inspire creativity in my
           work. I believe in maintaining a healthy work-life balance and always
           seek out new adventures and challenges to keep my life exciting and
-          fulfilling.
+          fulfilling.*/}
         </div>
       </div>
     </section>
