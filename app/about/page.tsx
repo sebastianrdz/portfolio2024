@@ -36,15 +36,36 @@ export default function AboutPage() {
             fill
           />
         </div>
-
-        {/* more about me section */}
-        <div className={cn(textBoxClassName, "md:col-span-2")}>
-          <h1 className="text-2xl tracking-widest mb-4">{more.title}</h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <p className="md:col-span-2">{more.text[0]}</p>
-            <p>{more.text[1]}</p>
-            <p>{more.text[2]}</p>
-          </div>
+      </div>
+      {/* more about me section */}
+      <div
+        className={cn(
+          textBoxClassName,
+          "grid-cols-1 md:grid-cols-3 text-center gap-4"
+        )}
+      >
+        <h1 className="text-2xl tracking-widest mb-4 md:col-span-3">
+          {more.title}
+        </h1>
+        <div className="grid content-center justify-center bg-primary gap-4 aspect-square cursor-pointer">
+          <Icons.rocket className="w-12 h-12 text-secondary mx-auto" />
+          <h2 className="text-xl font-bold text-secondary">
+            {more.data[0].title}
+          </h2>
+          {/* need that on hover the descirptions comes on top */}
+          <p className="hidden">{more.data[0].description}</p>
+        </div>
+        <div className="grid content-center justify-center bg-primary gap-4 aspect-square cursor-pointer">
+          <Icons.book className="w-12 h-12 text-secondary mx-auto" />
+          <h2 className="text-xl font-bold text-secondary">
+            {more.data[0].title}
+          </h2>
+        </div>
+        <div className="grid content-center justify-center bg-primary gap-4 aspect-square cursor-pointer">
+          <Icons.goal className="w-12 h-12 text-secondary mx-auto" />
+          <h2 className="text-xl font-bold text-secondary">
+            {more.data[0].title}
+          </h2>
         </div>
       </div>
     </section>

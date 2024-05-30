@@ -5,6 +5,9 @@ import {
   SunMedium,
   Twitter,
   Mail,
+  Rocket,
+  Book,
+  Goal,
   type XIcon as LucideIcon,
 } from "lucide-react";
 
@@ -16,6 +19,9 @@ export const Icons = {
   twitter: Twitter,
   menu: Menu,
   mail: Mail,
+  rocket: Rocket,
+  book: Book,
+  goal: Goal,
   logo: (props: LucideProps) => (
     <svg
       viewBox="0 0 652 400"
