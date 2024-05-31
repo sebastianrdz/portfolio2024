@@ -1,4 +1,5 @@
 import { Icons } from "@/components/assets/icons";
+import Card from "@/components/card";
 import { aboutData } from "@/lib/data";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
@@ -47,26 +48,21 @@ export default function AboutPage() {
         <h1 className="text-2xl tracking-widest mb-4 md:col-span-3">
           {more.title}
         </h1>
-        <div className="grid content-center justify-center bg-primary gap-4 aspect-square cursor-pointer">
-          <Icons.rocket className="w-12 h-12 text-secondary mx-auto" />
-          <h2 className="text-xl font-bold text-secondary">
-            {more.data[0].title}
-          </h2>
-          {/* need that on hover the descirptions comes on top */}
-          <p className="hidden">{more.data[0].description}</p>
-        </div>
-        <div className="grid content-center justify-center bg-primary gap-4 aspect-square cursor-pointer">
-          <Icons.book className="w-12 h-12 text-secondary mx-auto" />
-          <h2 className="text-xl font-bold text-secondary">
-            {more.data[0].title}
-          </h2>
-        </div>
-        <div className="grid content-center justify-center bg-primary gap-4 aspect-square cursor-pointer">
-          <Icons.goal className="w-12 h-12 text-secondary mx-auto" />
-          <h2 className="text-xl font-bold text-secondary">
-            {more.data[0].title}
-          </h2>
-        </div>
+        <Card
+          title={more.data[0].title}
+          description={more.data[0].description}
+          icon={<Icons.rocket className="w-12 h-12 text-secondary mx-auto" />}
+        />
+        <Card
+          title={more.data[1].title}
+          description={more.data[1].description}
+          icon={<Icons.book className="w-12 h-12 text-secondary mx-auto" />}
+        />
+        <Card
+          title={more.data[2].title}
+          description={more.data[2].description}
+          icon={<Icons.goal className="w-12 h-12 text-secondary mx-auto" />}
+        />
       </div>
     </section>
   );

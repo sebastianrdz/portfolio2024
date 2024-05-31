@@ -23,7 +23,7 @@ export const aboutData = {
       {
         title: "Journey",
         description:
-          "My software development journey began in high school with block-based coding and game creation. I love combining math, problem-solving, and technology. I enjoy building full-stack applications, with a special love for front-end development where I bring projects to life visually.",
+          "I started coding in high school with block-based game creation. I love combining math, problem-solving, and technology. Building full-stack applications, especially front-end development, is my passion.",
       },
       {
         title: "Hobbies",
@@ -37,11 +37,4 @@ export const aboutData = {
       },
     ],
   },
-  //   title: "More About Me",
-  //   text: [
-  //     "My journey into software development began in high school with a coding class that introduced me to programming through block-based coding and game creation. Captivated by math, problem-solving, and the potential of technology, I pursued a career as a Full-Stack Software Developer. I thoroughly enjoy building fully functional applications from scratch, with a particular passion for front-end development and bringing projects to life visually and interactively.",
-  //     "Outside of work, I enjoy going to the gym, meeting new people, painting, music, and reading. These activities keep me balanced, continually learning, and creatively inspired, enhancing my professional work.",
-  //     "I aspire to become an entrepreneur and establish my own startups and businesses. My ultimate goal is to achieve a level of freedom that allows me to enjoy the little things in life, give back to my family and friends, and live a fulfilling, care-free life.",
-  //   ],
-  // },
 };
