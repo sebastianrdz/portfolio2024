@@ -18,7 +18,7 @@ const Card = ({ title, description, icon, imageSrc }: CardProps) => {
         <p className="text-primary text-base md:text-xs lg:text-base">
           {description}
         </p>
-        <span className="w-10 h-1 bg-primary mt-4 rounded-full" />
+        <div className="w-10 h-1 bg-primary mt-4 rounded-full" />
       </div>
     </div>
   );
