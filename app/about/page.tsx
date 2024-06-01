@@ -1,5 +1,5 @@
 import { Icons } from "@/components/assets/icons";
-import Card from "@/components/card";
+import InfoCard from "@/components/info-card";
 import { aboutData } from "@/lib/data";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
@@ -48,17 +48,17 @@ export default function AboutPage() {
         <h1 className="text-2xl tracking-widest mb-4 md:col-span-3">
           {more.title}
         </h1>
-        <Card
+        <InfoCard
           title={more.data[0].title}
           description={more.data[0].description}
           icon={<Icons.rocket className="w-12 h-12 text-secondary mx-auto" />}
         />
-        <Card
+        <InfoCard
           title={more.data[1].title}
           description={more.data[1].description}
           icon={<Icons.book className="w-12 h-12 text-secondary mx-auto" />}
         />
-        <Card
+        <InfoCard
           title={more.data[2].title}
           description={more.data[2].description}
           icon={<Icons.goal className="w-12 h-12 text-secondary mx-auto" />}

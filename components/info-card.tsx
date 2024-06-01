@@ -1,13 +1,12 @@
-interface CardProps {
+interface InfoCardProps {
   title: string;
   description: string;
-  icon?: JSX.Element;
-  imageSrc?: string;
+  icon: JSX.Element;
 }
 
-const Card = ({ title, description, icon, imageSrc }: CardProps) => {
+const InfoCard = ({ title, description, icon }: InfoCardProps) => {
   return (
-    <div className="group relative aspect-square grid content-center bg-primary rounded-lg overflow-hidden">
+    <div className="group relative aspect-square grid content-center bg-primary overflow-hidden text-center">
       <div className="p-6 text-center">
         {icon}
         <h2 className="tracking-widest mb-4 text-xl font-bold capitalize text-secondary mt-4 duration-500 md:text-base">
@@ -24,4 +23,4 @@ const Card = ({ title, description, icon, imageSrc }: CardProps) => {
   );
 };
 
-export default Card;
+export default InfoCard;
