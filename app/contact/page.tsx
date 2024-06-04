@@ -14,7 +14,8 @@ export default function ContactePage() {
           <Icons.logo className="aspect-square w-48 h-48 p-4 text-secondary" />
         </div>
         <div className="grid bg-primary-foreground w-fill min-h-[500px] content-center justify-center p-8 xl:p-32">
-          <h1 className="text-2xl tracking-widest mb-4">{message}</h1>
+          <h1 className="text-2xl tracking-widest mb-4">{message.title}</h1>
+          <p>{message.description}</p>
         </div>
         <div className="grid grid-cols-2 bg-primary-foreground w-fill min-h-[500px] content-center justify-center p-8 xl:p-32">
           <Link
@@ -42,9 +43,9 @@ export default function ContactePage() {
             <Icons.linkedin width={30} />
           </Link>
         </div>
-        <div className="grid  w-fill min-h-[500px] content-center justify-center p-8 xl:p-32">
+        <div className="grid  w-fill min-h-[500px] content-center justify-center p-8 xl:p-32 bg-primary">
           <a href="/CV_SebastianRodriguez(V2).pdf" download>
-            <Button variant="default" size="lg" className="gap-2">
+            <Button variant="secondary" size="lg" className="gap-2">
               <Icons.download />
               <p>Download CV</p>
             </Button>

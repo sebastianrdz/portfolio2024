@@ -123,8 +123,11 @@ export const projectsData = {
 
 export const contactData = {
   // title: "Contact",
-  message:
-    "I'm always open to new opportunities and collaborations. Feel free to reach out to me for any inquiries or just to say hello!",
+  message: {
+    title: "I'm always open to new opportunities and collaborations. ",
+    description:
+      "Feel free to reach out to me for any inquiries or just to say hello!",
+  },
   email: "sebasstian.rdz@gmail.com",
   github: "https://github.com/sebastianrdz",
   linkeding: "https://www.linkedin.com/in/sebastian-rodriguez123/",

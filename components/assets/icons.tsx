@@ -12,6 +12,8 @@ import {
   type XIcon as LucideIcon,
 } from "lucide-react";
 
+import { Tec } from "@/components/assets/tecnologico-de-monterrey-black";
+
 export type Icon = typeof LucideIcon;
 
 export const Icons = {
@@ -78,4 +80,5 @@ export const Icons = {
       />
     </svg>
   ),
+  tec: (props: LucideProps) => <Tec {...props} />,
 };
