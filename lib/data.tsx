@@ -1,6 +1,4 @@
 import { Icons } from "@/components/assets/icons";
-import { link } from "fs";
-import { title } from "process";
 
 export const aboutData = {
   welcome: {
@@ -120,77 +118,14 @@ export const projectsData = {
       tags: ["Frontend", "Backend", "Full-stack"],
       status: "Outdated",
     },
-
-    // {
-    //   title: "Project 1",
-    //   description:
-    //     "This is a project description. This is a project description. This is a project description. This is a project description. This is a project description.",
-    //   imgages: ["/project-1.png", "/project-2.png"],
-    //   link: "https://www.google.com",
-    //   tags: ["Frontend", "Backend", "Design", "Full-stack"],
-    // },
-    // {
-    //   title: "Project 2",
-    //   description:
-    //     "This is a project description. This is a project description. This is a project description. This is a project description. This is a project description.",
-    //   imgSrc: "/project-2.png",
-    //   tags: ["Frontend", "Backend", "Design", "Full-stack"],
-    // },
-    // {
-    //   title: "Project 3",
-    //   description:
-    //     "This is a project description. This is a project description. This is a project description. This is a project description. This is a project description.",
-    //   imgSrc: "/project-3.png",
-    //   tags: ["Frontend", "Backend", "Design", "Full-stack"],
-    // },
-    // {
-    //   title: "Project 4",
-    //   description:
-    //     "This is a project description. This is a project description. This is a project description. This is a project description. This is a project description.",
-    //   imgSrc: "/project-4.png",
-    //   tags: ["Frontend", "Backend", "Design", "Full-stack"],
-    // },
-    // {
-    //   title: "Project 5",
-    //   description:
-    //     "This is a project description. This is a project description. This is a project description. This is a project description. This is a project description.",
-    //   imgSrc: "/project-5.png",
-    //   tags: ["Frontend", "Backend", "Design", "Full-stack"],
-    // },
-    // {
-    //   title: "Project 6",
-    //   description:
-    //     "This is a project description. This is a project description. This is a project description. This is a project description. This is a project description.",
-    //   imgSrc: "/project-6.png",
-    //   tags: ["Frontend", "Backend", "Design", "Full-stack"],
-    // },
-    // {
-    //   title: "Project 7",
-    //   description:
-    //     "This is a project description. This is a project description. This is a project description. This is a project description. This is a project description.",
-    //   imgSrc: "/project-7.png",
-    //   tags: ["Frontend", "Backend", "Design", "Full-stack"],
-    // },
-    // {
-    //   title: "Project 8",
-    //   description:
-    //     "This is a project description. This is a project description. This is a project description. This is a project description. This is a project description.",
-    //   imgSrc: "/project-8.png",
-    //   tags: ["Frontend", "Backend", "Design", "Full-stack"],
-    // },
-    // {
-    //   title: "Project 9",
-    //   description:
-    //     "This is a project description. This is a project description. This is a project description. This is a project description. This is a project description.",
-    //   imgSrc: "/project-9.png",
-    //   tags: ["Frontend", "Backend", "Design", "Full-stack"],
-    // },
-    // {
-    //   title: "Project 10",
-    //   description:
-    //     "This is a project description. This is a project description. This is a project description. This is a project description. This is a project description.",
-    //   imgSrc: "/project-10.png",
-    //   tags: ["Frontend", "Backend", "Design", "Full-stack"],
-    // },
   ],
+};
+
+export const contactData = {
+  // title: "Contact",
+  message:
+    "I'm always open to new opportunities and collaborations. Feel free to reach out to me for any inquiries or just to say hello!",
+  email: "sebasstian.rdz@gmail.com",
+  github: "https://github.com/sebastianrdz",
+  linkeding: "https://www.linkedin.com/in/sebastian-rodriguez123/",
 };

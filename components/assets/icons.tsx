@@ -8,6 +8,7 @@ import {
   Rocket,
   Book,
   Goal,
+  Download,
   type XIcon as LucideIcon,
 } from "lucide-react";
 
@@ -22,6 +23,7 @@ export const Icons = {
   rocket: Rocket,
   book: Book,
   goal: Goal,
+  download: Download,
   logo: (props: LucideProps) => (
     <svg
       viewBox="0 0 652 400"
